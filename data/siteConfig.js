@@ -34,9 +34,9 @@ export const siteConfig = {
 
   // -------- Google Maps --------
   maps: {
-    link: "https://maps.app.goo.gl/bZKJbqss59Gs3dor6",
+    link: "https://maps.google.com/?q=Sapa,+Vietnam",
     displayText: "Get Directions",
-    embedUrl: "", // TODO: Add Google Maps embed URL
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25701.601003321026!2d103.84873989966243!3d22.337642308709597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1791372263256!5m2!1sru!2s",
   },
 
   // -------- Social profiles --------
