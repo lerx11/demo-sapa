@@ -39,7 +39,7 @@ export default function About() {
               <div className="relative col-span-2 row-span-2 overflow-hidden rounded-tl-3xl rounded-tr-3xl">
                 <Image
                   src={about.images[0]}
-                  alt="Hmong House hosts — Su sisters"
+                  alt="local village"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover transition-transform duration-500 hover:scale-105"
@@ -49,7 +49,7 @@ export default function About() {
               <div className="relative overflow-hidden rounded-bl-3xl">
                 <Image
                   src={about.images[1]}
-                  alt="Hmong House homestay exterior"
+                  alt="local village"
                   fill
                   sizes="(max-width: 1024px) 100vw, 25vw"
                   className="object-cover transition-transform duration-500 hover:scale-105"
@@ -59,7 +59,7 @@ export default function About() {
               <div className="relative overflow-hidden rounded-br-3xl">
                 <Image
                   src={about.images[2]}
-                  alt="Rice terraces near Hmong House"
+                  alt="local village"
                   fill
                   sizes="(max-width: 1024px) 100vw, 25vw"
                   className="object-cover transition-transform duration-500 hover:scale-105"

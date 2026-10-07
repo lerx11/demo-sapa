@@ -25,8 +25,8 @@ export default function ToursSection() {
             Trails through the Sapa highlands
           </h2>
           <p className="mt-4 text-ink/70">
-            Five authentic experiences led by local Hmong and Red Dao guides —
-            from gentle village walks to high-ridge camping.
+            Three experiences led by local guides —
+            from gentle village walks to high-ridge treks.
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function ToursSection() {
           </p>
           <a
             href={buildWhatsappLink(
-              "Hi! I'd like help choosing a tour at Hmong House Sapa."
+              "Hi! I'd like help choosing a tour at Sapa Mountain Lodge."
             )}
             target="_blank"
             rel="noopener noreferrer"

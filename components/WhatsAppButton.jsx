@@ -26,7 +26,7 @@ export default function WhatsAppButton() {
           )}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Chat with Hmong House Sapa on WhatsApp"
+          aria-label="Chat with Sapa Mountain Lodge on WhatsApp"
           // Fade/slide only — no scale, so the button stays its fixed size.
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

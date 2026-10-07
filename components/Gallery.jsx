@@ -49,7 +49,7 @@ export default function Gallery() {
           </h2>
           <p className="mt-4 text-ink/70">
             A glimpse of the trails, villages, and people you&apos;ll meet at
-            Hmong House.
+            Sapa Mountain Lodge.
           </p>
         </motion.div>
 

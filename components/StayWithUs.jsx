@@ -12,7 +12,7 @@ import PhotoGridOverlay from "./PhotoGridOverlay";
 export default function StayWithUs() {
   const { stay } = siteConfig;
   const bookingLink = buildWhatsappLink(
-    "Hi! I'd like to book a room at Hmong House Sapa"
+    "Hi! I'd like to book a room at Sapa Mountain Lodge"
   );
   const { active, setActive, close, next, prev, current, normalized: roomImages } =
     useLightbox(stay.images);

@@ -17,16 +17,16 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://hmong-house-sapa.example.com"), // TODO: replace with real domain
+  metadataBase: new URL("https://sapa-mountain-lodge.example.com"), // TODO: replace with real domain
   title: {
-    default: "Hmong House Sapa — Nature, Guides & Cultural Tours",
-    template: "%s · Hmong House Sapa",
+    default: "Sapa Mountain Lodge — Nature, Comfort & Mountain Views",
+    template: "%s · Sapa Mountain Lodge",
   },
   description:
-    "Hmong House Sapa offers authentic trekking, herbal walks, and cultural tours in Ta Van Village, Sapa, Vietnam. Stay in our 20-room homestay and explore rice terraces with local Hmong and Red Dao guides.",
+    "Sapa Mountain Lodge is a family-run mountain lodge in Sapa, Vietnam, offering comfortable rooms, guided treks, and authentic local experiences.",
   keywords: [
     "Sapa tours",
-    "Hmong House Sapa",
+    "Sapa Mountain Lodge",
     "Sapa trekking",
     "Red Dao herbal trek",
     "Ta Van Village",
@@ -34,7 +34,7 @@ export const metadata = {
     "Sapa homestay",
   ],
   openGraph: {
-    title: "Hmong House Sapa — Nature, Guides & Cultural Tours",
+    title: "Sapa Mountain Lodge — Nature, Comfort & Mountain Views",
     description:
       "Authentic trekking and cultural tours in Ta Van Village, Sapa, Vietnam.",
     type: "website",

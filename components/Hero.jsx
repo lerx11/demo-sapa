@@ -34,7 +34,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src={heroImage}
-        alt="Sunrise over the Sapa rice terraces near Hmong House"
+        alt="Sunrise over the Sapa rice terraces"
         fill
         priority
         sizes="100vw"
