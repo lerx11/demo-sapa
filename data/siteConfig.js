@@ -1,5 +1,5 @@
 // ============================================================
-// Hmong House Sapa — Central site configuration & content
+// Sapa Mountain Lodge — Central site configuration & content
 // ------------------------------------------------------------
 // All copy, tour data, gallery, and reviews live in this single file
 // so the whole site can be edited from one place.
@@ -11,9 +11,9 @@
 // ============================================================
 
 // Helper: generate a consistent placeholder image URL with the brand palette.
-// bg = rice green (#6B8E4E), fg = cream (#FFF8F0).
+// bg = deep forest green (#3B6B4A), fg = warm cream (#FFF9F2).
 const ph = (w, h, label) =>
-  `https://placehold.co/${w}x${h}/6B8E4E/FFF8F0?text=${encodeURIComponent(
+  `https://placehold.co/${w}x${h}/3B6B4A/FFF9F2?text=${encodeURIComponent(
     label
   )}`;
 
@@ -56,7 +56,7 @@ export const siteConfig = {
   booking: {
     rating: "4.8",
     reviewCount: "250",
-    link: "https://www.booking.com/hotel/vn/h-moong-view-homestay.en-gb.html",
+    link: "https://www.booking.com",
     displayText: "Booking.com",
   },
 
@@ -121,12 +121,10 @@ export const siteConfig = {
     subtitle:
       "We are a local family sharing our mountain, our trails, and our traditions with travellers who want more than a postcard.",
     story: [
-      "Our lodge began as a simple family home in the highlands of Sapa, where the mornings open onto rolling green valleys and mist drifts between the peaks. For years we welcomed a steady stream of trekkers into our kitchen, sharing meals and stories late into the evening. What started as a warm welcome for a handful of travellers slowly grew into the mountain lodge you see today.",
-      "We are a close family who believe the best part of this region is its people and its quiet rhythm of life. Between the terraced fields and the cool forest trails, we build our days around simple things: tending our garden, cooking with fresh local ingredients, and walking guests along the paths that have shaped us. Our guides grew up in these hills and know every bend in the trail.",
-      "When you stay with us or join one of our tours, you are not just visiting Sapa — you are stepping into our home. We hope to show you a calmer, more personal side of the mountains, and to welcome you back like old friends whenever your travels bring you here again.",
+      "Nestled in the mountains of northern Vietnam, our family-run lodge has welcomed travelers from around the world for over a decade. We offer comfortable rooms with breathtaking views, authentic local cuisine, and guided treks through the most beautiful landscapes of Sapa. Whether you're seeking adventure or relaxation, our team is here to make your stay unforgettable.",
     ],
     mission:
-      "To share the Sapa highlands through sustainable, community-minded tourism while supporting the local families who make this region special.",
+      "To share the beauty of Sapa with travelers while supporting our local community.",
     values: [
       {
         icon: "leaf",
@@ -232,21 +230,6 @@ export const siteConfig = {
         "/images/tours/hmong-village/1.jpeg",
         "/images/tours/hmong-village/2.jpeg",
         "/images/tours/hmong-village/3.jpeg",
-        "/images/tours/hmong-village/4.jpeg",
-        "/images/tours/hmong-village/5.jpeg",
-        "/images/tours/hmong-village/6.jpeg",
-        "/images/tours/hmong-village/7.jpeg",
-        "/images/tours/hmong-village/8.jpeg",
-        "/images/tours/hmong-village/9.jpeg",
-        "/images/tours/hmong-village/10.jpeg",
-        "/images/tours/hmong-village/11.jpeg",
-        "/images/tours/hmong-village/12.jpeg",
-        "/images/tours/hmong-village/13.jpeg",
-        "/images/tours/hmong-village/14.jpeg",
-        "/images/tours/hmong-village/15.jpeg",
-        "/images/tours/hmong-village/16.jpeg",
-        "/images/tours/hmong-village/17.jpeg",
-        "/images/tours/hmong-village/18.jpeg",
       ],
     },
     {
@@ -319,27 +302,6 @@ export const siteConfig = {
         "/images/tours/herbal-trekking/1.jpeg",
         "/images/tours/herbal-trekking/2.jpeg",
         "/images/tours/herbal-trekking/3.jpeg",
-        "/images/tours/herbal-trekking/4.jpeg",
-        "/images/tours/herbal-trekking/5.jpeg",
-        "/images/tours/herbal-trekking/6.jpg",
-        "/images/tours/herbal-trekking/7.jpg",
-        "/images/tours/herbal-trekking/8.jpeg",
-        "/images/tours/herbal-trekking/9.jpeg",
-        "/images/tours/herbal-trekking/10.jpeg",
-        "/images/tours/herbal-trekking/11.jpeg",
-        "/images/tours/herbal-trekking/12.jpeg",
-        "/images/tours/herbal-trekking/13.jpeg",
-        "/images/tours/herbal-trekking/14.jpeg",
-        "/images/tours/herbal-trekking/15.jpeg",
-        "/images/tours/herbal-trekking/16.jpeg",
-        "/images/tours/herbal-trekking/17.jpeg",
-        "/images/tours/herbal-trekking/18.jpeg",
-        "/images/tours/herbal-trekking/19.jpeg",
-        "/images/tours/herbal-trekking/20.jpeg",
-        "/images/tours/herbal-trekking/21.jpeg",
-        "/images/tours/herbal-trekking/22.jpeg",
-        "/images/tours/herbal-trekking/23.jpeg",
-        "/images/tours/herbal-trekking/24.jpeg",
       ],
     },
     {
@@ -435,95 +397,62 @@ export const siteConfig = {
         "/images/tours/2d1n-combo/1.jpeg",
         "/images/tours/2d1n-combo/2.jpeg",
         "/images/tours/2d1n-combo/3.jpeg",
-        "/images/tours/2d1n-combo/4.jpeg",
-        "/images/tours/2d1n-combo/5.jpeg",
-        "/images/tours/2d1n-combo/6.jpg",
-        "/images/tours/2d1n-combo/7.jpeg",
-        "/images/tours/2d1n-combo/8.jpeg",
-        "/images/tours/2d1n-combo/9.jpeg",
-        "/images/tours/2d1n-combo/10.jpeg",
-        "/images/tours/2d1n-combo/11.jpeg",
-        "/images/tours/2d1n-combo/12.jpeg",
-        "/images/tours/2d1n-combo/13.jpeg",
-        "/images/tours/2d1n-combo/14.jpeg",
-        "/images/tours/2d1n-combo/15.jpeg",
-        "/images/tours/2d1n-combo/16.jpeg",
-        "/images/tours/2d1n-combo/17.jpeg",
       ],
     },
-    ],
+  ],
 
   // -------- Gallery (masonry grid) --------
   gallery: [
-    // 20 dedicated gallery photos
+    // 3 gallery photos
     { src: "/images/gallery/photo1.jpeg", alt: "Sapa rice terraces" },
-    { src: "/images/gallery/photo2.jpeg", alt: "Hmong village" },
-    { src: "/images/gallery/photo3.jpeg", alt: "Red Dao herbal bath" },
-    { src: "/images/gallery/photo4.jpeg", alt: "Trekking trail through valleys" },
-    { src: "/images/gallery/photo5.jpeg", alt: "Homestay exterior at sunrise" },
-    { src: "/images/gallery/photo6.jpeg", alt: "Misty mountain peaks" },
-    { src: "/images/gallery/photo7.jpeg", alt: "Stilt house among rice fields" },
-    { src: "/images/gallery/photo8.jpeg", alt: "Hmong textile crafts" },
-    { src: "/images/gallery/photo9.jpeg", alt: "Local market in Sapa" },
-    { src: "/images/gallery/photo10.jpeg", alt: "Bamboo bridge over river" },
-    { src: "/images/gallery/photo11.jpeg", alt: "Sunset over Muong Hoa valley" },
-    { src: "/images/gallery/photo12.jpeg", alt: "Trekking guide on the trail" },
-    { src: "/images/gallery/photo13.jpeg", alt: "Camping under the stars" },
-    { src: "/images/gallery/photo14.jpeg", alt: "Traditional Hmong breakfast" },
-    { src: "/images/gallery/photo15.jpeg", alt: "Indigo dyeing process" },
-    { src: "/images/gallery/photo16.jpeg", alt: "Rice field workers" },
-    { src: "/images/gallery/photo17.jpeg", alt: "Room view from balcony" },
-    { src: "/images/gallery/photo18.jpeg", alt: "Waterfall on trekking route" },
-    { src: "/images/gallery/photo19.jpeg", alt: "Family dinner at the homestay" },
-    { src: "/images/gallery/photo20.jpeg", alt: "Panoramic Sapa landscape" },
-    // 15 tour photos (3 from each of the 5 tours)
-    { src: "/images/tours/hmong-village/1.jpeg", alt: "Hmong village trekking route" },
-    { src: "/images/tours/hmong-village/2.jpeg", alt: "Ancient Hmong houses" },
-    { src: "/images/tours/hmong-village/3.jpeg", alt: "Hmong village panorama" },
-    { src: "/images/tours/herbal-trekking/1.jpeg", alt: "Red Dao herbal trek" },
-    { src: "/images/tours/herbal-trekking/2.jpeg", alt: "Medicinal herbs in the forest" },
-    { src: "/images/tours/herbal-trekking/3.jpeg", alt: "Red Dao village valley" },
+    { src: "/images/gallery/photo2.jpeg", alt: "Local village" },
+    { src: "/images/gallery/photo3.jpeg", alt: "Traditional herbal bath" },
+    // 3 photos from each tour
+    { src: "/images/tours/hmong-village/1.jpeg", alt: "Village trekking route" },
+    { src: "/images/tours/hmong-village/2.jpeg", alt: "Traditional village houses" },
+    { src: "/images/tours/hmong-village/3.jpeg", alt: "Village panorama" },
+    { src: "/images/tours/herbal-trekking/1.jpeg", alt: "Herbal trek through the mountains" },
+    { src: "/images/tours/herbal-trekking/2.jpeg", alt: "Forest herbs" },
+    { src: "/images/tours/herbal-trekking/3.jpeg", alt: "Mountain village valley" },
     { src: "/images/tours/2d1n-combo/1.jpeg", alt: "Terraced rice fields" },
-    { src: "/images/tours/2d1n-combo/2.jpeg", alt: "Hmong and Red Dao valley" },
-    { src: "/images/tours/2d1n-combo/3.jpeg", alt: "Homestay cooking class" },
-    // 5 room photos
-    { src: "/images/rooms/room-1.jpeg", alt: "Room at Hmong House Sapa" },
+    { src: "/images/tours/2d1n-combo/2.jpeg", alt: "Mountain valley" },
+    { src: "/images/tours/2d1n-combo/3.jpeg", alt: "Cooking class at the lodge" },
+    // 3 room photos
+    { src: "/images/rooms/room-1.jpeg", alt: "Room at Sapa Mountain Lodge" },
     { src: "/images/rooms/room-2.jpeg", alt: "Room with mountain view" },
     { src: "/images/rooms/room-3.jpeg", alt: "Comfortable bed with warm linens" },
-    { src: "/images/rooms/room-4.jpeg", alt: "Bathroom" },
-    { src: "/images/rooms/room-5.jpeg", alt: "Balcony view of the valley" },
   ],
 
   // -------- Guest reviews --------
   // TODO: replace with verified reviews (e.g. Google, TripAdvisor).
   reviews: [
     {
-      name: "Sophie Laurent",
-      country: "France",
+      name: "Sarah",
+      country: "UK",
       rating: 5,
       date: "March 2026",
-      text: "The most authentic experience we had in Vietnam. Our local guide took us through villages we'd never have found alone, and the herbal bath with a mountain family was unforgettable. Felt like visiting friends, not a tour.",
+      text: "A wonderful stay with incredible mountain views. The food was delicious and the trekking was well organised. Highly recommended!",
     },
     {
-      name: "James O'Connor",
-      country: "Ireland",
+      name: "Michael",
+      country: "Australia",
       rating: 5,
       date: "February 2026",
-      text: "We did the 2D1N combo and it was the highlight of our three weeks in Vietnam. Sleeping in a local home, sharing dinner, learning about the plants — this is the real Sapa, not the bus-tour version. Highly recommend.",
+      text: "The perfect base for exploring Sapa. Comfortable rooms, friendly staff, and the guided treks were the highlight of our trip.",
     },
     {
-      name: "Yuki Tanaka",
-      country: "Japan",
+      name: "Anna",
+      country: "Germany",
       rating: 5,
       date: "January 2026",
-      text: "I travelled solo and felt completely safe the whole time. The trek is hard but worth every step — sunrise above the clouds is something I'll never forget. The guides took such good care of me.",
+      text: "Lovely family-run lodge. We felt at home from the moment we arrived and the views from our room were breathtaking.",
     },
     {
-      name: "Maria González",
-      country: "Spain",
+      name: "Tom",
+      country: "USA",
       rating: 5,
       date: "December 2025",
-      text: "Beautiful lodge, incredible food, and guides who genuinely love their land. The village walk was perfect for my parents who can't trek far. We'll be back.",
+      text: "Great value and a truly relaxing stay. The team went above and beyond to make our visit special.",
     },
   ],
 

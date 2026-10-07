@@ -9,11 +9,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Warm, natural palette inspired by Sapa rice fields and Hmong textiles
-        cream: "#FFF8F0", // page background
+        // Warm, natural palette inspired by Sapa rice fields and mountain forests
+        cream: "#FFF9F2", // page background
         ink: "#2D2D2D", // primary text
-        rice: "#6B8E4E", // rice field green (primary brand)
-        gold: "#C9A227", // warm golden accent
+        rice: "#3B6B4A", // deep forest green (primary brand)
+        gold: "#C97B5A", // muted terracotta accent
         whatsapp: "#25D366", // WhatsApp brand green
       },
       fontFamily: {

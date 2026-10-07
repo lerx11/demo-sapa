@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 /* ============================================================
-   Hmong House Sapa — Global styles
+   Sapa Mountain Lodge — Global styles
    Warm, minimal, personal design system
    ============================================================ */
 
 :root {
-  --background: #fff8f0; /* cream */
+  --background: #fff9f2; /* warm cream */
   --foreground: #2d2d2d; /* ink */
-  --rice: #6b8e4e;
-  --gold: #c9a227;
+  --rice: #3b6b4a; /* deep forest green */
+  --gold: #c97b5a; /* muted terracotta */
   --whatsapp: #25d366;
 }
 
